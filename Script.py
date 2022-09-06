@@ -1,25 +1,18 @@
 class script(object):
-    START_TXT = """<b>Hᴇʏ {} ɪᴍ 『TAMILAN MOVIES FILTER』 ᴀɴ Aᴡᴇsᴏᴍᴇ Aᴜᴛᴏ + Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ + Fɪʟᴇ Sʜᴀʀᴇ Bᴏᴛ.</b>
+    START_TXT = """<b> Hello {} 👋🏻 Im Rolex Bot I can share Movies and Series 😁.</b>
     
-<i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>"""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Tamil_Movies_Filter_Bot><b>TAMILAN MOVIES FILTER</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/HAASHIM_999><b>ʜᴀᴀꜱʜɪᴍ</b></a>\n
-📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
-📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/TrockersLinks><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0 [ ʙᴇᴛᴀ ]\n</b></i>"""
-    SOURCE_TXT = """<b>FOR PAID PROMOTION:</b>
+<i>Add me to your Group and make me as Admin to share files in your Group</i>"""
+    HELP_TXT = """Hey {}
+Here Is The Help For MY Commands."""
+    ABOUT_TXT = """<b><i>🧸 Bot Name : <a href=https://t.me/RolexMoviesOX><b>Rolex Bot</b></a>\n
+😎 Owner : <a href=https://t.me/JonSnow11><b>Jon Snow</b></a>\n
+📡 Host : ʜᴇʀᴏᴋᴜ\n
+🌟 Version : ᴠ 4.0 [ ʙᴇᴛᴀ ]\n</b></i>"""
+    SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 
-- <b>WE HAVE MANY PLANS FOR DETAILS CONTACT ME @HAASHIM_999<b>
-
-- <b>LOW PRICE ONLY🥵<b>
-
-- <b>MORE THAT 30K USERS WILL SEE YOUR ADS❤️‍🔥<b>
-
-- <b>@TrockersLinks<b>"""
+» First Share Me Your Heroku Api
+» I will Create One Bot For You<b>
+» Contact Me @JonSnow11<b>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -96,12 +89,12 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """<b><u>Cᴜʀʀᴇɴᴛ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛᴜs</b></u>
+    STATUS_TXT = """<b><u>Stats</b></u>
     
-📑 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
-👩🏻‍💻 ᴜsᴇʀs: <code>{}</code>
-👥 ɢʀᴏᴜᴘs: <code>{}</code>
-🗂️ ᴏᴄᴄᴜᴘɪᴇᴅ: <code>{}</code>
+⁕ Total Files: <code>{}</code>
+⁕ Total Users: <code>{}</code>
+⁕ Total Groups: <code>{}</code>
+⁕ Storage: <code>{}</code>
 """
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
